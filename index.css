@@ -1,0 +1,845 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Poppins:wght@300;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+body{
+    font-family: 'Lugrasimo', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+.kay{
+    display: flex;
+    font-size: 30px; 
+}
+
+.kay marquee{
+    font-weight: bold;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: 2px solid black;
+    background-color: rgb(204, 189, 19);
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 25px;
+}
+.nav1 img{
+    width: 30px;
+    
+}
+
+.nav2{
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav2 p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nava{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 120px;
+}
+
+.nav3{
+    width: 250px;
+    height: 40px;
+}
+.nav4{
+    height: 40px;
+    width: 70px;
+}
+
+.nav5{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.menü{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    column-gap: 28px;
+}
+
+.menü1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menü2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menü3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menü4 a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.baş{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.kolek img{
+    width: 350px;
+}
+.kolek{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kolek1b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kolek1c{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kolek1c a{
+    border: 2px solid rgb(204, 189, 19);
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:  rgb(204, 189, 19);
+    justify-content: space-around;
+}
+.kolek1e p{
+    font-size: 17px;
+    text-align: center;
+}
+
+.kolek1e{
+    margin-bottom: 35px;
+}
+
+.kolek2b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kolek2c{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kolek2c a{
+    border: 2px solid rgb(204, 189, 19);
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:  rgb(204, 189, 19);
+    justify-content: space-around;
+}
+
+.kolek2e p{
+    font-size: 17px;
+    text-align: center;
+}
+
+.kolek2e{
+    margin-bottom: 35px;
+}
+
+.kolek3b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kolek3c{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kolek3c a{
+    border: 2px solid rgb(204, 189, 19);
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:  rgb(204, 189, 19);
+    justify-content: space-around;
+}
+
+.kolek3e p{
+    font-size: 17px;
+    text-align: center;
+   
+}
+
+.kolek3e{
+    margin-bottom: 35px;
+}
+
+
+.kolek4b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kolek4c{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kolek4c a{
+    border: 2px solid rgb(204, 189, 19);
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:  rgb(204, 189, 19);
+    justify-content: space-around;
+}
+
+.kolek4e p{
+    font-size: 17px;
+    text-align: center;
+}
+
+.kolek4e{
+    margin-bottom: 35px;
+}
+
+.oltu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    
+    
+}
+
+.oltu h2{
+   text-align: center;
+   
+}
+
+.oltu1{
+    margin-top: 60px;
+}
+
+
+.oltu1 img{
+    width: 700px;
+    height: 700px;
+}
+
+.oltu1 p{
+font-size: 17px;
+width: 700px;
+letter-spacing: 1px;
+
+}
+
+.oltu2 img{
+    width: 700px;
+    height: 700px;
+}
+
+.oltu2 p{
+font-size: 17px;
+width: 700px;
+letter-spacing: 1px;
+
+}
+
+.tfoto img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.bfır{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fır{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.fır img{
+    width: 480px;
+    height: 400px;
+    
+}
+
+.fır p{
+    font-size: large;
+    text-align: center;
+}
+
+.fır2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px
+    
+}
+
+.fır2 img{
+    width: 480px;
+    height: 400px;
+
+}
+
+.fır2 p{
+    font-size: large;
+    text-align: center;
+}
+
+.akişi img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.kişi{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.orta{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    text-align: center;
+    
+}
+
+.orta p{
+    width: 310px;
+    text-align: center;
+    margin-top: 3px;
+    line-height: 2;
+    
+    
+}
+
+.orta1 img{
+    width: 320px;
+    height: 260px;
+}
+.orta1 p{
+    font-size: large;
+}
+
+.orta2 img{
+    width: 320px;
+    height: 260px;
+}
+
+.orta2 p{
+    font-size: large;
+}
+
+.orta3 img{
+    width: 320px;
+    height: 260px;
+}
+
+.orta3 p{
+    font-size: large;
+}
+.ortaa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.orta4 img{
+    width: 320px;
+    height: 260px;
+}
+
+.orta4 p{
+    font-size: large;
+}
+
+.orta5 img{
+    width: 320px;
+    height: 260px;
+}
+
+.orta5 p{
+    font-size: large;
+}
+
+.yaz{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2;
+    
+}
+
+
+.yaz h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.yaz p{
+    text-align: center;
+    width: 1300px;
+    font-size: 17px
+}
+
+.sonb{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.son1a{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.son1b{
+    width: 250px;
+}
+
+.son2a{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;  
+}
+
+.son2b{
+    width: 220px; 
+}
+
+
+.son3a{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;  
+}
+
+.son3b{
+    width: 210px; 
+}
+
+.son4a{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;  
+}
+
+.son4b{
+    width: 280px; 
+}
+
+.son5a{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;  
+}
+
+.son5b{
+    width: 255px; 
+}
+
+.son6a{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;  
+}
+
+.son6b{
+    width: 255px; 
+}
+
+.bor{
+    text-align: center;
+    margin-top: 100px;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: #232016;
+    color: white;
+    font-size: 25px;
+}
+
+.harita{
+    margin-top: 100px;
+ 
+}
+
+.iletişim{
+    margin-top: 80px;
+}
+
+
+
+
+
+.adres{
+    line-height: 2;
+    
+}
+
+.adres1{
+    margin-bottom: 1.5rem;
+}
+.adres1a{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.adres1a i{
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.adres1a i:hover{
+    transition: 1s;
+    background-color: #a86528;
+}
+
+.adres2{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.adres2a{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.adres2a i{
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.adres2a i:hover{
+    transition: 1s;
+    background-color: #a86528;
+}
+
+.adres3{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.adres3a{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.adres3a i{
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.adres3a i:hover{
+    transition: 1s;
+    background-color: #a86528;
+}
+
+.iletişim{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1400px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 150px;
+    
+}
+
+.inputa p{
+    font-size: 27px;
+}
+
+.inputa input{
+    width: 450px;
+    height: 50px;
+    text-align: center;
+}
+
+.inputb p{
+    font-size: 27px;
+}
+
+.inputb input{
+    width: 450px;
+    height: 50px;
+    text-align: center;
+}
+
+.inputc p{
+    font-size: 27px;
+}
+
+.inputc input{
+    width: 450px;
+    height: 50px;
+    text-align: center;
+}
+
+.inputd p{
+    font-size: 27px;
+}
+
+.inputd input{
+    width: 450px;
+    height: 50px;
+    text-align: center;
+}
+
+.inpute p{
+    font-size: 27px;
+}
+
+.inpute input{
+    width: 450px;
+    height: 180px;
+    text-align: center;
+}
+
+
+
+.inputf input{
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    margin-top: 45px;
+    
+}
+
+.inputf input{
+    background-color: #cc3333;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.inputf input:hover{
+    transition: 1s;
+    background-color: #3c3333;
+}
+
+.kutua{
+    width: 100%;
+    height: 900px;
+    background-color: #2d052b;
+    text-align: center;
+    
+}
+
+.kutu{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.kutu1{
+    
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    margin-top: 50px
+}
+
+.kutu1a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+    color: black;
+}
+
+.kutu1a a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.kutu2{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    margin-top: 50px
+}
+
+.kutu2a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.kutu2a a{
+    text-decoration: none;
+    color: black;
+}
+
+.kutu3{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    margin-top: 50px
+}
+
+.kutu3a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.kutu3a a{
+    text-decoration: none;
+    color: black;
+}
+
+.kare{
+    margin-bottom: 50px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 25px;
+    
+    
+}
+
+.icon img{
+    width: 30px;
+
+}
+
+.hr{
+    color: white;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+
+.bitti{
+    display: flex;
+    
+    justify-content: space-around;
+    color: white;
+
+}
+
+.finis{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banka{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    opacity: 0.5;
+}
+
+.banka img{
+    width: 80px;
+}
+
+.banka1 img{
+    width: 55px;
+    column-gap: 20px;
+    
+}
+
+.banka1{
+    display: flex;
+    align-items: center;
+    
+    column-gap: 30px;
+}
+
+
+
+
+
+
